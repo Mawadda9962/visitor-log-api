@@ -16,25 +16,24 @@ The application stores visitor data in memory using a Java List, so all data wil
 - Docker
 - Git & GitHub
 
-## Project Structure
+##Project Structure
 
 visitorlog
-│
-├── src/main/java/com/example/visitorlog
-│ ├── Controller
-│ │ └── VisitorController.java
-│ │
-│ ├── Service
-│ │ └── VisitorService.java
-│ │
-│ ├── Entity
-│ │ └── Visitor.java
-│ │
-│ └── VisitorlogApplication.java
-│
-├── Dockerfile
-├── pom.xml
-└── README.md
+src/main/java/com/example/visitorlog
+
+Controller
+   VisitorController.java
+
+Service
+  VisitorService.java
+
+Entity
+  Visitor.java
+    
+VisitorlogApplication.java
+Dockerfile
+pom.xml
+README.md
 
 
 
@@ -49,9 +48,9 @@ visitorlog
 | PUT | `/api/visitors/{id}` | Update visitor information |
 | GET | `/api/visitors?purpose=meeting` | Filter visitors by purpose |
 
----
 
-# Visitor Model
+
+##Visitor Model
 
 The Visitor object contains:
 
