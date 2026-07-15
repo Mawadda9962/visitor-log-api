@@ -77,7 +77,9 @@ public class VisitorService {
 
         visitor.setName(updatedVisitor.getName());
         visitor.setCompany(updatedVisitor.getCompany());
-        visitor.
+        visitor.setPurpose(updatedVisitor.getPurpose());
+
+        return visitor;
     }
 
 }
