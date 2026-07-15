@@ -40,4 +40,15 @@ public class VisitorController {
     public int countVisitors(){
         return visitorService.countVisitor();
     }
+
+    @GetMapping(value = "/visitors", params = "purpose")
+    public List<Visitor> getVisitorsByPurpose(@RequestParam String purpose){
+        return visitorService.getVisitorsByPurpose(purpose);
+    }
+
+
+    @PutMapping("/visitors/{id}")
+    public Visitor updateVisitor(@PathVariable Long id, @RequestBody Visitor visitor){
+        return visitorService.updateVisitor(id, visitor);
+    }
 }
