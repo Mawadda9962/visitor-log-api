@@ -57,7 +57,29 @@ public class VisitorService {
         visitors.remove(visitorToDelete);
     }
 
+    public int countVisitor(){
+        return visitors.size();
+    }
+
+    public List<Visitor> getVisitorsByPurpose(String purpose){
+        List<Visitor> result = new ArrayList<>();
+
+        for (Visitor visitor : visitors){
+            if (visitor.getPurpose().equalsIgnoreCase(purpose)){
+                result.add(visitor);
+            }
+        }
+        return result;
+    }
+
+    public Visitor updateVisitor(Long id, Visitor updatedVisitor){
+        Visitor visitor = getVisitorById(id);
+
+        visitor.setName(updatedVisitor.getName());
+        visitor.setCompany(updatedVisitor.getCompany());
+        visitor.
+    }
+
 }
 
 
-}
