@@ -19,8 +19,16 @@ public class VisitorService {
 
 
     public Visitor getVisitorById(Long id) {
-        return visitors.stream().filter(visitor -> visitor.getId().equals(id)).findFirst().orElseThrow(() ->
-                        new ResponseStatusException(HttpStatus.NOT_FOUND, "Visitor not found"));
+
+        for (Visitor visitor : visitors) {
+            if (visitor.getId().equals(id)) {
+                return visitor;
+            }
+        }
+        throw new ResponseStatusException(
+                HttpStatus.NOT_FOUND,
+                "Visitor not found"
+        );
     }
 
 }
