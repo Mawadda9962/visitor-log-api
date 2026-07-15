@@ -31,4 +31,10 @@ public class VisitorService {
         );
     }
 
+    public Visitor addVisitor(Visitor visitor){
+
+
+    }
+
+
 }
