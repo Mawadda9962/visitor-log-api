@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
+
 
 @RestController
 public class VisitorController {
@@ -20,20 +20,20 @@ public class VisitorController {
         return visitorService.getAllVisitors();
     }
 
-    @GetMapping("/visirots/{id}")
+    @GetMapping("/visitors/{id}")
     public Visitor getVisitorById(@PathVariable Long id){
         return visitorService.getVisitorById(id);
     }
 
-    @GetMapping("/visitors")
+    @PostMapping("/visitors")
     public Visitor addVisitor(@RequestBody Visitor visitor){
-        return  visitorService.addVisitor(visitor);
+        return visitorService.addVisitor(visitor);
     }
 
-    @DeleteMapping("/visitors/{id")
+    @DeleteMapping("/visitors/{id}")
     public String deleteVisitor(@PathVariable Long id){
-       visitorService.deleteVisitor(id);
-       return "Visitor Deleted Successfully";
+        visitorService.deleteVisitor(id);
+        return "Visitor deleted successfully";
     }
 
     @GetMapping("/visitors/count")
