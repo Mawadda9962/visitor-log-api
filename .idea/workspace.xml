@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62b1207b-2cd5-4078-b81c-89157edba2d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/src/main/java/com/example/visitorlog/Java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/src/main/java/com/example/visitorlog/Java/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitorlog-Java/src/test/java/com/example/visitorlog/Java/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitorlog-Java/src/main/java/com/example/visitorlog/Java/Service/VisitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/visitorlog-Java/src/main/java/com/example/visitorlog/Java/Service/VisitorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +30,24 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3GWcuBdtfIdv0AvsWjndOHNjAWl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/CodeLine/Downloads/visitorlog · Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CodeLine/Downloads/visitorlog · Java&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
