@@ -1,4 +1,4 @@
-package com.example.visitorlog.Java;
+package com.example.visitorlog.Java.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
